@@ -1,0 +1,15 @@
+name: Custom GitHub Action Workflow
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 23f2005701@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
